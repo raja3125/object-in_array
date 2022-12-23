@@ -1,0 +1,51 @@
+<htmL>
+<head>
+</head>
+<body>
+<script>
+
+
+	let data={
+	users:[
+	{
+	
+		name:"raja",
+		age:15, 
+		gender:"male"
+	},
+	{
+	
+		name:"rocket raja",
+		age:21, 
+		gender:"male"
+	},
+	{
+	
+		name:"rajini",
+		age:19, 
+		gender:"female"
+	}
+	]
+	}
+    data.users.push({name:"rachitha", age:23, gender:"female"});
+	
+	<!-- for(i=0;i<data.users.length;i++){-->
+	<!-- delete data.users[i].age; -->
+	<!-- } -->
+	
+
+console.table(data.users);
+
+let newdata={
+       
+		name:"Kamal",
+		age:35, 
+		gender:"male"
+	}	
+data.users.push(newdata);
+console.table(data.users);
+
+ 
+</script>
+</body>
+</html>
